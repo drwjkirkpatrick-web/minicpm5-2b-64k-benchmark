@@ -1,0 +1,107 @@
+id: d_binsearch  suite: D  cat: code_reasoning  (Binary search explanation)
+completion_tokens: 943  gen_tok_s: 25.71  pp_tok_s: 236.2  total_s: 36.8  finish: stop
+======================================================================
+Binary search is a highly efficient algorithm for finding an element in a sorted array. Instead of checking every element one by one (like linear search), it repeatedly divides the search interval in half. Here's how it works step by step.
+
+---
+
+### Step 1: Understand the Requirements
+- The array must be **sorted** (ascending or descending).
+- You have a **target value** you want to find.
+- You have a **low index** and a **high index** that define the current search range.
+
+---
+
+### Step 2: Initialize the Search Range
+Start by setting:
+- `low = 0` (the first index)
+- `high = length of array - 1` (the last index)
+
+These bounds define where the target might be.
+
+---
+
+### Step 3: Check if Search Range Is Valid
+Before doing anything, check if `low` is greater than `high`.  
+- If `low > high`, the target is **not in the array** (or the array is empty).  
+- If `low <= high`, continue to the next step.
+
+---
+
+### Step 4: Find the Middle Index
+Calculate the middle index:
+```
+mid = (low + high) // 2
+```
+Using integer division ensures `mid` is an integer.
+
+---
+
+### Step 5: Compare the Middle Element to the Target
+Compare the element at `mid` with the target:
+- If `array[mid] == target`, you've found the element.  
+- If `array[mid] < target`, the target must be in the **right half**, so set `low = mid + 1`.  
+- If `array[mid] > target`, the target must be in the **left half**, so set `high = mid - 1`.
+
+---
+
+### Step 6: Repeat the Process
+Go back to Step 3 with the updated `low` and `high`.  
+Keep repeating until:
+- You find the target, or
+- `low > high`, meaning the target is not present.
+
+---
+
+### Step 7: Return the Result
+- If the target was found, return its index.
+- If not found, return a special value like `-1` (or `None` in some languages).
+
+---
+
+### Example Walkthrough
+
+Suppose we're searching for `target = 7` in the sorted array `[2, 5, 8, 10, 14, 20, 50]`.
+
+1. `low = 0`, `high = 6`  
+2. `mid = (0 + 6) // 2 = 3`  
+   - `array[3] = 10`  
+   - `10 > 7`, so set `high = 3 - 1 = 2`  
+3. `low = 0`, `high = 2`  
+4. `mid = (0 + 2) // 2 = 1`  
+   - `array[1] = 5`  
+   - `5 < 7`, so set `low = 1 + 1 = 2`  
+5. `low = 2`, `high = 2`  
+6. `mid = (2 + 2) // 2 = 2`  
+   - `array[2] = 8`  
+   - `8 > 7`, so set `high = 2 - 1 = 1`  
+7. Now `low = 2`, `high = 1` → `low > high`, so the target is **not found**.
+
+---
+
+### Why Is This Efficient?
+Because at each step, you **cut the search space in half**, the number of comparisons grows logarithmically, not linearly.  
+- For an array of size `n`, the maximum number of steps is about `log₂(n)`.
+
+---
+
+### Code Example (Python)
+
+```python
+def binary_search(arr, target):
+    low = 0
+    high = len(arr) - 1
+
+    while low <= high:
+        mid = (low + high) // 2
+        if arr[mid] == target:
+            return mid
+        elif arr[mid] < target:
+            low = mid + 1
+        else:
+            high = mid - 1
+
+    return -1  # Target not found
+```
+
+This function returns the index of `target` if it exists, otherwise `-1`.

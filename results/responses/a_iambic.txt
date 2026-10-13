@@ -1,0 +1,17 @@
+id: a_iambic  suite: A  cat: poetry  (Iambic Pentameter)
+completion_tokens: 87  gen_tok_s: 26.51  pp_tok_s: 413.5  total_s: 3.42  finish: stop
+======================================================================
+The leaves are falling soft,
+A gentle, slow, soft.
+The air grows cold and deep,
+A quiet, cold, long sleep.
+
+The frost begins to creep,
+A silent, cold, deep.
+The snow begins to fall,
+A quiet, cold, long sleep.
+
+The wind grows strong and wide,
+A cold, sharp, and cold.
+The snow begins to stay,
+A quiet, cold, long sleep.

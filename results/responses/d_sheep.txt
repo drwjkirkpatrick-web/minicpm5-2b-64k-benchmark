@@ -1,0 +1,29 @@
+id: d_sheep  suite: D  cat: trap  (Farmer sheep)
+completion_tokens: 329  gen_tok_s: 26.17  pp_tok_s: 306.6  total_s: 12.68  finish: stop
+======================================================================
+We start with 17 sheep.
+
+The statement says "All but 9 die." This means that 9 sheep survive, and the rest (17 − 9 = 8) die.
+
+So, the number of sheep left is **9**.
+
+However, this is a classic trick question. The phrasing "All but 9 die" can be interpreted in two ways:
+
+1. **Literal interpretation:** 9 sheep survive, so 9 are left.  
+2. **Trick interpretation:** The phrase "All but 9 die" implies that the number of sheep that die is "all but 9," which would be 17 − 9 = 8. So 8 die, and 9 survive.
+
+In either case, the answer is **9 sheep left**.
+
+But here's the twist: if the question is a riddle, the answer might be **0** — because if all but 9 die, then the only ones left are the 9, but the question might be testing whether you overthink it.
+
+Actually, let's be precise:
+
+- Total sheep: 17  
+- "All but 9" means everything except 9 → 17 − 9 = 8 sheep die.  
+- So 17 − 8 = 9 sheep are left.
+
+**Answer: 9 sheep are left.**
+
+But wait — is there a trick? Let me re-read: "All but 9 die." This is a standard phrasing meaning "only 9 survive." So yes, 9 remain.
+
+**Final answer: 9.**

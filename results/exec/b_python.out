@@ -1,0 +1,28 @@
+Processing complete. Results:
+{
+    "total_employees": 4,
+    "average_salary_by_department": {
+        "HR": 75000.0,
+        "Engineering": 90000.0
+    },
+    "top_3_highest_paid": [
+        {
+            "name": "Eve",
+            "department": "Engineering",
+            "salary": 95000.0,
+            "hire_date": "2023-01-20"
+        },
+        {
+            "name": "Bob",
+            "department": "Engineering",
+            "salary": 90000.0,
+            "hire_date": "2022-07-01"
+        },
+        {
+            "name": "Charlie",
+            "department": "Engineering",
+            "salary": 85000.0,
+            "hire_date": "2021-09-10"
+        }
+    ]
+}

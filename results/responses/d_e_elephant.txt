@@ -1,0 +1,12 @@
+id: d_e_elephant  suite: D  cat: trap  (Counting e's in elephant)
+completion_tokens: 93  gen_tok_s: 26.49  pp_tok_s: 230.4  total_s: 3.61  finish: stop
+======================================================================
+There are **3** e's in the word "elephant".
+
+Here is the breakdown:
+E-L-E-P-H-A-N-T
+1. The first 'e' (at the beginning)
+2. The second 'e' (in the middle)
+3. The third 'e' (at the end)
+
+The letters 'l', 'p', 'h', 'a', and 'n' do not contain the letter 'e'.

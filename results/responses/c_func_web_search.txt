@@ -1,0 +1,5 @@
+id: c_func_web_search  suite: C  cat: function_call  (Function Call: Web Search)
+completion_tokens: 23  gen_tok_s: 19.0  pp_tok_s: None  total_s: 1.21  finish: tool_calls
+expected_tool: web_search
+tool_calls: [{"id": "SVynbJoBN0ys24kE1fsr2tl5f3zj6QTM", "name": "web_search", "arguments": "{\"query\":\"recent renewable energy breakthroughs solar wind technology this month\"}"}]
+======================================================================

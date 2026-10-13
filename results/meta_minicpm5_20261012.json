@@ -1,0 +1,18 @@
+{
+ "server": {
+  "model_path": "/home/walker/models/minicpm5-2b/MiniCPM5-2B-Q4_K_M.gguf",
+  "n_ctx": null,
+  "free_m": "2497",
+  "gdm": "inactive",
+  "timestamp": "2026-10-13 13:54:33"
+ },
+ "sampling": {
+  "temperature": 0.3,
+  "top_p": 0.95,
+  "top_k": 40,
+  "min_p": 0.0,
+  "repeat_penalty": 1.0,
+  "note": "llama-cli defaults for top_p/top_k; temp 0.3 matches all prior suite runs"
+ },
+ "n_prompts_total": 34
+}

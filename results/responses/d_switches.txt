@@ -1,0 +1,17 @@
+id: d_switches  suite: D  cat: logic  (3 light switches)
+completion_tokens: 240  gen_tok_s: 26.28  pp_tok_s: 300.9  total_s: 9.27  finish: stop
+======================================================================
+This is a classic logic puzzle. Here's how to solve it in just one visit:
+
+1. **Turn on Switch A** and leave it on for a while.
+2. **Turn off Switch B** (so it's off when you enter).
+3. **Turn off Switch C** (so it's off when you enter).
+
+Now enter the room:
+- The **bulb that is ON** corresponds to Switch A.
+- The **bulb that is OFF** but has power (you can confirm this by flipping it on and checking it stays on) corresponds to Switch B.
+- The **remaining bulb that is OFF** corresponds to Switch C.
+
+The key insight: you have three states — on, off, and "on but you don't know if it's on or off" — and you need to use all three switches to distinguish all three bulbs. By toggling switches between on/off states, you create enough information to match each bulb to its switch.
+
+The answer is: **Turn on one switch, leave it on; turn off another; leave the third off. Then enter and match each bulb to the switch that produces its state.**

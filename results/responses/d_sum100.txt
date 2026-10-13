@@ -1,0 +1,17 @@
+id: d_sum100  suite: D  cat: math  (Sum 1 to 100)
+completion_tokens: 142  gen_tok_s: 26.44  pp_tok_s: 259.6  total_s: 5.47  finish: stop
+======================================================================
+To find the sum of all integers from 1 to 100, we can use the formula for the sum of the first $n$ positive integers:
+
+$$S_n = \frac{n(n+1)}{2}$$
+
+Here, $n = 100$. Plugging this value into the formula:
+
+1.  Calculate $n(n+1)$:
+    $$100 \times (100 + 1) = 100 \times 101 = 10100$$
+
+2.  Divide by 2:
+    $$\frac{10100}{2} = 5050$$
+
+**Answer:**
+The sum of all integers from 1 to 100 is **5,050**.

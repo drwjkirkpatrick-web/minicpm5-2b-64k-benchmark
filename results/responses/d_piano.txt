@@ -1,0 +1,11 @@
+id: d_piano  suite: D  cat: estimation  (Fermi: piano tuners)
+completion_tokens: 111  gen_tok_s: 26.48  pp_tok_s: 267.5  total_s: 4.3  finish: stop
+======================================================================
+This is a classic lateral thinking puzzle. The trick is realizing that pianos aren't typically tuned in cities, but rather in homes. So the number of pianos (and thus tuners) in a city of 1 million people is effectively **zero**.
+
+The reasoning:
+- Most people don't have pianos.
+- Even if they did, tuners are rarely needed in public spaces.
+- The answer is a play on the assumption that you need a tuner for every piano in the city.
+
+The joke answer is **0**.

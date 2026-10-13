@@ -1,0 +1,61 @@
+id: d_sqrt2  suite: D  cat: math  (sqrt(2) irrational (short phrasing))
+completion_tokens: 911  gen_tok_s: 25.76  pp_tok_s: 218.4  total_s: 35.47  finish: stop
+======================================================================
+To prove that $\sqrt{2}$ is irrational, we will use a classic proof by contradiction. This method assumes that $\sqrt{2}$ is rational and then shows that this assumption leads to a logical contradiction.
+
+### Step 1: Assume $\sqrt{2}$ is Rational
+Assume that $\sqrt{2}$ is a rational number. By definition, this means that $\sqrt{2}$ can be expressed as a fraction $\frac{p}{q}$, where:
+1. $p$ and $q$ are integers.
+2. $q \neq 0$.
+3. The fraction is in its simplest form (i.e., $p$ and $q$ have no common factors other than 1).
+
+So, we can write:
+$$ \sqrt{2} = \frac{p}{q} $$
+
+### Step 2: Square Both Sides
+To eliminate the square root and work with integers, square both sides of the equation:
+$$ (\sqrt{2})^2 = \left(\frac{p}{q}\right)^2 $$
+$$ 2 = \frac{p^2}{q^2} $$
+
+### Step 3: Rearrange to isolate integers
+Multiply both sides by $q^2$ to clear the denominator:
+$$ 2q^2 = p^2 $$
+
+This equation tells us that $p^2$ is an even number (since it is equal to $2$ times $q^2$).
+
+### Step 4: Use the Property of Even Numbers
+A fundamental property of integers is that if a square number is even, then its root must also be even.
+*   **Proof of property:** If $n$ is an integer and $n^2$ is even, then $n$ must be even. If $n$ were odd, we could write $n = 2k + 1$. Then $n^2 = (2k+1)^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1$, which is odd. Since $n^2$ is even, $n$ cannot be odd.
+
+Since $p^2$ is even, **$p$ must be even**.
+
+### Step 5: Express $p$ using an integer $k$
+Because $p$ is even, there exists an integer $k$ such that:
+$$ p = 2k $$
+
+### Step 6: Substitute back into the original equation
+Substitute $p = 2k$ back into the equation from Step 3 ($2q^2 = p^2$):
+$$ 2q^2 = (2k)^2 $$
+$$ 2q^2 = 4k^2 $$
+
+Divide both sides by 2:
+$$ q^2 = 2k^2 $$
+
+### Step 7: Analyze $q$
+The equation $q^2 = 2k^2$ implies that $q^2$ is also even (specifically, it is 2 times $k^2$). By the same logic used in Step 4, if $q^2$ is even, then **$q$ must also be even**.
+
+### Step 8: Identify the Contradiction
+We have established two facts:
+1.  $p$ is even.
+2.  $q$ is even.
+
+However, recall the initial assumption in Step 1 that $\frac{p}{q}$ was in **simplest form** (i.e., $p$ and $q$ share no common factors). If both $p$ and $q$ are even, they are both divisible by 2. This means we can divide both by 2, which contradicts the assumption that the fraction was in simplest form.
+
+Alternatively, we can look at the ratio:
+$$ \frac{p}{q} = \frac{2k}{2m} = \frac{k}{m} $$
+This implies that $\sqrt{2} = \frac{k}{m}$, which is a new fraction with smaller integers than $\frac{p}{q}$. This contradicts the idea that we started with the simplest form of the fraction representing $\sqrt{2}$.
+
+### Conclusion
+The assumption that $\sqrt{2}$ is rational leads to a contradiction. Therefore, the assumption must be false.
+
+**Thus, $\sqrt{2}$ is irrational.**

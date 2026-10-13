@@ -1,0 +1,15 @@
+id: c_func_email  suite: C  cat: function_call  (Function Call: Email Draft)
+completion_tokens: 56  gen_tok_s: 26.64  pp_tok_s: 353.5  total_s: 2.22  finish: stop
+expected_tool: none
+======================================================================
+Subject: Rescheduling Our Thursday Meeting
+
+Hi Sarah,
+
+I wanted to let you know that we need to move our Thursday meeting to Monday at 2pm.
+
+Please let me know if this new time works for you.
+
+Best,
+
+[Your Name]

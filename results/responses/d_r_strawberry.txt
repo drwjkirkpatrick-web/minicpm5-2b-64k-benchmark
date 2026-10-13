@@ -1,0 +1,19 @@
+id: d_r_strawberry  suite: D  cat: trap  (Counting r's in strawberry)
+completion_tokens: 135  gen_tok_s: 26.4  pp_tok_s: 240.0  total_s: 5.21  finish: stop
+======================================================================
+There are **zero** r's in the word "strawberry" if you consider the word as it is typically spelled. However, this is a trick question because the letter 'r' appears in the word "strawberry" when you look closely at the spelling: s-t-r-a-w-b-e-r-r-y. 
+
+Actually, let's count again carefully:
+- s
+- t
+- r (1)
+- a
+- w
+- b
+- e
+- r (2)
+- r (3)
+- r (4)
+- y
+
+So there are **4 r's** in the word "strawberry".

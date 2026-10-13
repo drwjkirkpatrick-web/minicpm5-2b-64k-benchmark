@@ -1,0 +1,65 @@
+id: d_boxes  suite: D  cat: logic  (Mislabeled boxes)
+completion_tokens: 773  gen_tok_s: 25.83  pp_tok_s: 397.3  total_s: 30.05  finish: stop
+======================================================================
+This is a classic logic puzzle. Let's break it down carefully.
+
+## The Setup
+
+You have 3 boxes:
+- **Box A**: contains only apples
+- **Box B**: contains only oranges
+- **Box C**: contains both apples and oranges
+
+The labels on the boxes are all wrong. So whatever label says "Apples," it's actually the "Both" box, whatever says "Oranges," it's actually the "Both" box, and whatever says "Both," it's actually the "Only" box.
+
+## The Solution
+
+The key insight is that **you don't need to know which box is which to solve it**. You just need to make one draw from one box, then use that information to deduce everything.
+
+### Step-by-step:
+
+1. **Pick any one box.** Call it Box 1.
+
+2. **Draw something from Box 1.** You'll get either:
+   - Only apples
+   - Only oranges
+   - Or a mix of both
+
+3. **Use the draw to figure out the labels.** Here's the reasoning:
+
+   Since all labels are wrong, the label on Box 1 is NOT what's actually in it.
+
+   - If you drew **only apples** from Box 1: The label on Box 1 must say "Oranges" (because it's wrong) or "Both" (also wrong). But wait — let's think more carefully.
+
+   Actually, let me reconsider. The cleanest way to think about this:
+
+   **The correct approach:**
+
+   - Draw from Box 1.
+   - Suppose you draw an apple. Then Box 1 contains only apples. Since all labels are wrong, the label on Box 1 is either "Oranges" or "Both." 
+   - Now draw from Box 2 (the box with the "Both" label, which is actually the "Only" box).
+   - If Box 2 has only oranges, you've confirmed the labels.
+
+   But the puzzle says "With **one draw**" — so you only draw once.
+
+   **The elegant answer:**
+
+   Draw from one box. You get a result. Then you can correctly relabel all three boxes.
+
+   Here's why it works: After one draw, you now know the **true contents** of that box. Since all labels are wrong, you know the label on that box is incorrect. You also know the other two boxes' labels are wrong. With this information, you can deduce the correct label for each box.
+
+   **Concrete example:**
+   - Draw from Box 1 and get only apples.
+   - Box 1's label is wrong, so it's not "Apples."
+   - The "Both" box has both, and the "Only Oranges" box has only oranges.
+   - Since Box 1 has only apples, the label on Box 1 must be "Oranges" (the only wrong label that fits).
+   - The box labeled "Both" is actually the "Only Apples" box.
+   - The box labeled "Only Apples" is actually the "Only Oranges" box.
+
+   So you can now correctly relabel everything.
+
+### The General Principle
+
+The answer is: **Yes, you can.** Draw from one box. The fact that all labels are wrong gives you enough information to deduce the correct labeling for all three boxes based on what you drew. You don't need to know which box is which initially — you just need one observation to anchor your reasoning.
+
+The trick is that the single draw breaks the symmetry of the puzzle. Without it, you're stuck in a loop of possibilities. With it, you have a concrete fact to work from.

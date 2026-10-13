@@ -1,0 +1,14 @@
+id: a_creative  suite: A  cat: creative  (Creative Writing)
+completion_tokens: 331  gen_tok_s: 26.16  pp_tok_s: 388.3  total_s: 12.83  finish: stop
+======================================================================
+The salt air tastes like sand on the roof. The wind doesn't just blow; it pulls, like a tired man trying to hold onto a dream. For thirty years, the light from the lens has been the only thing keeping the empty road visible.
+
+She was the first thing I saw in the morning. A man, his jacket torn, his hands raw from the rain. He didn't knock. He just stood there until the door creaked open. "I'm lost," he whispered, his voice a crackle of static. "I can't make it home."
+
+I didn't say anything. I just lit the lamp. The beam cut through the grey clouds, a small white pin in a vast black. He walked in, shaking until his bones ached. He didn't need the light. He just needed the warmth of the door.
+
+As he sat on the wooden step, the storm grew louder. The wind howled through the broken shutters. I watched him, watching the way his breathing came in shallow gasps. He didn't ask for water. He just drank from the rusted tin can on the step. The water tasted like old rain.
+
+When the storm began to lift, the door was still open. He was still shivering, but his eyes were clear. "Thank you," he said, his voice thick with salt. "I was just passing through."
+
+I didn't want to say anything. I just turned off the lamp. The beam had to go out before the dark could take the last of the warmth. He left the door open, and the wind found him just like it found me.

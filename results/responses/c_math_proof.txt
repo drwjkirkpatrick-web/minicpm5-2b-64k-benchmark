@@ -1,0 +1,31 @@
+id: c_math_proof  suite: C  cat: math  (Mathematical Proof)
+completion_tokens: 455  gen_tok_s: 26.08  pp_tok_s: 425.6  total_s: 17.58  finish: stop
+======================================================================
+Proof by Mathematical Induction.
+
+**Base Case:**
+For \( n = 1 \), the sum of the first 1 natural number is \( 1 \). The formula gives \( \frac{1(1+1)}{2} = \frac{2}{2} = 1 \). Thus, the base case holds.
+
+**Inductive Hypothesis:**
+Assume that for some arbitrary natural number \( k \), the formula holds, i.e., the sum of the first \( k \) natural numbers is \( \frac{k(k+1)}{2} \).
+
+**Inductive Step:**
+We must show that the formula also holds for \( k+1 \). The sum of the first \( k+1 \) natural numbers can be written as the sum of the first \( k \) natural numbers plus the \( (k+1)^{\text{th}} \) number. Using the inductive hypothesis:
+\[
+\sum_{i=1}^{k+1} i = \left( \sum_{i=1}^{k} i \right) + (k+1) = \frac{k(k+1)}{2} + (k+1).
+\]
+To simplify the right-hand side, we factor out \( (k+1) \):
+\[
+\frac{k(k+1)}{2} + (k+1) = (k+1) \left( \frac{k}{2} + 1 \right).
+\]
+Combining the terms inside the parentheses:
+\[
+\frac{k}{2} + 1 = \frac{k}{2} + \frac{2}{2} = \frac{k+2}{2}.
+\]
+Thus, the expression becomes:
+\[
+(k+1) \left( \frac{k+2}{2} \right) = \frac{(k+1)(k+2)}{2}.
+\]
+This matches the formula \( \frac{(k+1)((k+1)+1)}{2} \). Therefore, the statement holds for \( k+1 \).
+
+By the principle of mathematical induction, the formula \( \sum_{i=1}^{n} i = \frac{n(n+1)}{2} \) is true for all natural numbers \( n \).

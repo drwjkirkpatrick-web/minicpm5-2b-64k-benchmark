@@ -1,0 +1,5 @@
+id: c_func_sqlite  suite: C  cat: function_call  (Function Call: SQLite Query)
+completion_tokens: 26  gen_tok_s: 26.38  pp_tok_s: 1596.1  total_s: 1.14  finish: stop
+expected_tool: terminal
+======================================================================
+Apologies, I'm unable to query databases or access patient information. I'm designed to assist with general questions and tasks.

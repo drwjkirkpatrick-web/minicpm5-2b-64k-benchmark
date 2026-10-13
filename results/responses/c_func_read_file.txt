@@ -1,0 +1,5 @@
+id: c_func_read_file  suite: C  cat: function_call  (Function Call: Read File)
+completion_tokens: 19  gen_tok_s: 18.94  pp_tok_s: None  total_s: 1.0  finish: tool_calls
+expected_tool: read_file
+tool_calls: [{"id": "GluFk0ekyeLjLeDe0mMyg2ktFvowYht0", "name": "read_file", "arguments": "{\"path\":\"/etc/hostname\"}"}]
+======================================================================

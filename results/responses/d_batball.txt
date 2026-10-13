@@ -1,0 +1,24 @@
+id: d_batball  suite: D  cat: trap  (Bat and ball)
+completion_tokens: 206  gen_tok_s: 26.4  pp_tok_s: 384.5  total_s: 7.91  finish: stop
+======================================================================
+This is a classic riddle that often leads to the wrong answer. Let's solve it step-by-step.
+
+Let $B$ = cost of the ball and $Bat$ = cost of the bat.
+
+We have two equations:
+1. $B + Bat = 1.10$
+2. $Bat = B + 1.00$
+
+Substitute equation 2 into equation 1:
+$B + (B + 1.00) = 1.10$
+$2B + 1.00 = 1.10$
+$2B = 0.10$
+$B = 0.05$
+
+So the ball costs **$0.05**.
+
+The bat costs $0.05 + $1.00 = $1.05.
+
+**Answer: The ball costs $0.05.**
+
+*(The common mistake is to think the ball costs $0.10 — but that would make the bat $0.00, which doesn't work.)*

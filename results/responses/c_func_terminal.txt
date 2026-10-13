@@ -1,0 +1,5 @@
+id: c_func_terminal  suite: C  cat: function_call  (Function Call: Terminal Command)
+completion_tokens: 17  gen_tok_s: 18.34  pp_tok_s: None  total_s: 0.93  finish: tool_calls
+expected_tool: terminal
+tool_calls: [{"id": "QncjA60Fvj3uhDciOiwRFUcaZI6ftChS", "name": "terminal", "arguments": "{\"command\":\"df -h /\"}"}]
+======================================================================

@@ -1,0 +1,114 @@
+id: c_html_profiles  suite: C  cat: html  (HTML Profile Cards Page)
+completion_tokens: 751  gen_tok_s: 25.82  pp_tok_s: 518.5  total_s: 29.25  finish: stop
+======================================================================
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Cards</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .card {
+            flex: 1 1 300px;
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .avatar {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background-color: #e0e0e0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            color: white;
+            transition: background-color 0.3s;
+        }
+
+        .card:hover .avatar {
+            background-color: #c0c0c0;
+        }
+
+        .card-content {
+            padding: 15px;
+        }
+
+        .name {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .title {
+            font-size: 1rem;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .bio {
+            color: #777;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="avatar">A</div>
+            <div class="card-content">
+                <h3 class="name">Alice Johnson</h3>
+                <h4 class="title">Frontend Developer</h4>
+                <p class="bio">Passionate about building clean, user-friendly interfaces.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="avatar">B</div>
+            <div class="card-content">
+                <h3 class="name">Bob Smith</h3>
+                <h4 class="title">Product Designer</h4>
+                <p class="bio">Focuses on creating intuitive user experiences.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="avatar">C</div>
+            <div class="card-content">
+                <h3 class="name">Carol White</h3>
+                <h4 class="title">Data Analyst</h4>
+                <p class="bio">Helps teams make data-driven decisions.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+```

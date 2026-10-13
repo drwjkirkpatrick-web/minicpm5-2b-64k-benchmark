@@ -1,0 +1,148 @@
+id: c_html_game  suite: C  cat: html  (HTML Web Browser Game)
+completion_tokens: 978  gen_tok_s: 25.64  pp_tok_s: 480.1  total_s: 38.3  finish: stop
+======================================================================
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click-the-Target Game</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        #game-container {
+            text-align: center;
+        }
+        #score {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        #timer {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        #game-over {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        #start-btn {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+        }
+        #start-btn:hover {
+            background-color: #3e2723;
+        }
+        canvas {
+            border: 2px solid #333;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+
+<div id="game-container">
+    <div id="score">Score: 0</div>
+    <div id="timer">Timer: 30</div>
+    <div id="game-over">Game Over!</div>
+    <button id="start-btn">Start Game</button>
+</div>
+
+<canvas id="game-canvas" width="500" height="500"></canvas>
+
+<script>
+    const canvas = document.getElementById('game-canvas');
+    const ctx = canvas.getContext('2d');
+    const scoreElement = document.getElementById('score');
+    const timerElement = document.getElementById('timer');
+    const gameOverElement = document.getElementById('game-over');
+    const startBtn = document.getElementById('start-btn');
+
+    let score = 0;
+    let timer = 30000;
+    let gameInterval;
+    let gameActive = false;
+
+    function drawTarget() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        const x = Math.random() * canvas.width;
+        const y = Math.random() * canvas.height;
+        const radius = Math.min(canvas.width, canvas.height) / 2;
+        ctx.beginPath();
+        ctx.arc(x, y, radius, 0, Math.PI * 2);
+        ctx.fillStyle = '#3498db';
+        ctx.fill();
+        ctx.strokeStyle = '#3498db';
+        ctx.stroke();
+    }
+
+    function drawScore() {
+        scoreElement.textContent = `Score: ${score}`;
+    }
+
+    function drawTimer() {
+        timerElement.textContent = `Timer: ${Math.max(0, timer)}ms`;
+    }
+
+    function drawGameOver() {
+        gameOverElement.textContent = `Game Over! Your score was: ${score}`;
+        gameOverElement.style.color = '#e74c3c';
+        startBtn.disabled = true;
+        startBtn.style.backgroundColor = '#e74c3c';
+    }
+
+    function startGame() {
+        if (!gameActive) {
+            score = 0;
+            timer = 30000;
+            gameActive = true;
+            gameInterval = setInterval(() => {
+                timer -= 1000;
+                drawTimer();
+                if (timer <= 0) {
+                    clearInterval(gameInterval);
+                    gameActive = false;
+                    drawGameOver();
+                }
+            }, 1000);
+            drawTarget();
+            drawScore();
+            drawTimer();
+            startBtn.disabled = true;
+            startBtn.textContent = 'Game Over';
+        }
+    }
+
+    function handleClick(e) {
+        if (!gameActive) return;
+        const rect = canvas.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+        const radius = Math.min(canvas.width, canvas.height) / 2;
+        if (x <= radius && x >= -radius && y <= radius && y >= -radius) {
+            score += 10;
+            drawTarget();
+            drawScore();
+        }
+    }
+
+    canvas.addEventListener('click', handleClick);
+    startBtn.addEventListener('click', startGame);
+
+    document.getElementById('start-btn').textContent = 'Start Game';
+</script>
+
+</body>
+</html>
+```

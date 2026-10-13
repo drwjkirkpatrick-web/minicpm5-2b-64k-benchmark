@@ -1,0 +1,5 @@
+id: c_func_write_file  suite: C  cat: function_call  (Function Call: Write File)
+completion_tokens: 46  gen_tok_s: 22.1  pp_tok_s: None  total_s: 2.08  finish: tool_calls
+expected_tool: write_file
+tool_calls: [{"id": "fBgTa2zCnZQLW6aQ0g3gcINVjtgm9iNC", "name": "write_file", "arguments": "{\"path\":\"~/todo.txt\",\"content\":\"1. Buy groceries\\n2. Call dentist\\n3. Fix the sink.\"}"}]
+======================================================================

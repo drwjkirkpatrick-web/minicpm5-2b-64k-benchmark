@@ -1,0 +1,10 @@
+id: c_creative  suite: C  cat: creative  (Creative Writing - Short Story)
+completion_tokens: 302  gen_tok_s: 26.19  pp_tok_s: 400.2  total_s: 11.67  finish: stop
+======================================================================
+The dust in Leo’s attic was a fine, golden powder. He found the guitar not by accident, but by scent—a warm, ozone-like smell that made his chest ache. It was his grandfather’s, a wooden beast with a neck that looked like a sleeping river.
+
+He picked it up. The first note wasn’t a sound, but a memory: the smell of his grandmother’s lavender, the sound of her humming in a sun-drenched kitchen. As he strummed, the air in the room grew thick with the scent of rain on hot asphalt and the taste of salt. The memories weren’t just in his head; they were in the air, in the dust, in the very grain of the wood.
+
+By afternoon, Leo had played until his arms ached. The memories became a symphony. He remembered the taste of pine after a hike, the feel of cold water on his skin, the quiet of a forest. He didn’t just remember; he made it real. The guitar was no longer a tool, but a portal.
+
+One evening, as the fire crackled, Leo realized the magic was fading. He had to play it again. The last note was a deep, resonant hum, carrying the scent of the attic and the memory of a summer he’d forgotten. He held the guitar close, and for a moment, the entire room seemed to breathe. The old guitar was more than a instrument; it was a bridge to a world he could still reach.

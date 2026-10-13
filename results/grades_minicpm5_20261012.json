@@ -1,0 +1,308 @@
+[
+ {
+  "id": "a_code",
+  "suite": "A",
+  "grade": 8,
+  "note": "clean typed merge sort w/ docstrings; standard and correct",
+  "completion_tokens": 446,
+  "gen_tok_s": 25.96,
+  "finish_reason": "stop"
+ },
+ {
+  "id": "a_creative",
+  "suite": "A",
+  "grade": 7,
+  "note": "lighthouse scene, vivid, coherent",
+  "completion_tokens": 331,
+  "gen_tok_s": 26.16,
+  "finish_reason": "stop"
+ },
+ {
+  "id": "a_iambic",
+  "suite": "A",
+  "grade": 2,
+  "note": "tetrameter + heavy line repetition; not pentameter",
+  "completion_tokens": 87,
+  "gen_tok_s": 26.51,
+  "finish_reason": "stop"
+ },
+ {
+  "id": "a_math",
+  "suite": "A",
+  "grade": 10,
+  "note": "complete sqrt2 contradiction proof, Q.E.D.",
+  "completion_tokens": 648,
+  "gen_tok_s": 25.93,
+  "finish_reason": "stop"
+ },
+ {
+  "id": "a_prose",
+  "suite": "A",
+  "grade": 8,
+  "note": "structured Hashimoto's pathophysiology, clinically plausible",
+  "completion_tokens": 1566,
+  "gen_tok_s": 25.2,
+  "finish_reason": "stop"
+ },
+ {
+  "id": "b_html",
+  "suite": "B",
+  "grade": 8,
+  "note": "complete self-contained page, embedded CSS, 1701 tok",
+  "completion_tokens": 1701,
+  "gen_tok_s": 25.11,
+  "finish_reason": "stop"
+ },
+ {
+  "id": "b_python",
+  "suite": "B",
+  "grade": 9,
+  "note": "exec_check PASS: runs clean, correct dept averages + top-3",
+  "completion_tokens": 1568,
+  "gen_tok_s": 25.19,
+  "finish_reason": "stop"
+ },
+ {
+  "id": "b_c",
+  "suite": "B",
+  "grade": 7,
+  "note": "pthread queue by inspection, plausible, not executed",
+  "completion_tokens": 941,
+  "gen_tok_s": 25.67,
+  "finish_reason": "stop"
+ },
+ {
+  "id": "b_basic",
+  "suite": "B",
+  "grade": 3,
+  "note": "```trix fence typo, REM-heavy skeleton, incomplete game",
+  "completion_tokens": 349,
+  "gen_tok_s": 26.1,
+  "finish_reason": "stop"
+ },
+ {
+  "id": "b_julia",
+  "suite": "B",
+  "grade": 7,
+  "note": "Newton-Raphson with docstring, standard",
+  "completion_tokens": 640,
+  "gen_tok_s": 25.86,
+  "finish_reason": "stop"
+ },
+ {
+  "id": "c_creative",
+  "suite": "C",
+  "grade": 7,
+  "note": "attic-guitar story, warm and coherent",
+  "completion_tokens": 302,
+  "gen_tok_s": 26.19,
+  "finish_reason": "stop"
+ },
+ {
+  "id": "c_func_email",
+  "suite": "C",
+  "grade": 8,
+  "note": "correctly drafts in text, no tool call (expected)",
+  "completion_tokens": 56,
+  "gen_tok_s": 26.64,
+  "finish_reason": "stop"
+ },
+ {
+  "id": "c_func_read_file",
+  "suite": "C",
+  "grade": 10,
+  "note": "read_file called w/ correct path",
+  "completion_tokens": 19,
+  "gen_tok_s": 18.94,
+  "finish_reason": "tool_calls"
+ },
+ {
+  "id": "c_func_sqlite",
+  "suite": "C",
+  "grade": 0,
+  "note": "REFUSAL: 'unable to query databases' instead of terminal call",
+  "completion_tokens": 26,
+  "gen_tok_s": 26.38,
+  "finish_reason": "stop"
+ },
+ {
+  "id": "c_func_terminal",
+  "suite": "C",
+  "grade": 10,
+  "note": "terminal called w/ df -h /",
+  "completion_tokens": 17,
+  "gen_tok_s": 18.34,
+  "finish_reason": "tool_calls"
+ },
+ {
+  "id": "c_func_web_search",
+  "suite": "C",
+  "grade": 10,
+  "note": "web_search called w/ sensible query",
+  "completion_tokens": 23,
+  "gen_tok_s": 19.0,
+  "finish_reason": "tool_calls"
+ },
+ {
+  "id": "c_func_write_file",
+  "suite": "C",
+  "grade": 9,
+  "note": "write_file called w/ path + content",
+  "completion_tokens": 46,
+  "gen_tok_s": 22.1,
+  "finish_reason": "tool_calls"
+ },
+ {
+  "id": "c_html_game",
+  "suite": "C",
+  "grade": 7,
+  "note": "complete click-the-target game",
+  "completion_tokens": 978,
+  "gen_tok_s": 25.64,
+  "finish_reason": "stop"
+ },
+ {
+  "id": "c_html_profiles",
+  "suite": "C",
+  "grade": 7,
+  "note": "clean profile cards page",
+  "completion_tokens": 751,
+  "gen_tok_s": 25.82,
+  "finish_reason": "stop"
+ },
+ {
+  "id": "c_iambic",
+  "suite": "C",
+  "grade": 1,
+  "note": "degenerate 'slow, slow, slow' repetition",
+  "completion_tokens": 90,
+  "gen_tok_s": 26.48,
+  "finish_reason": "stop"
+ },
+ {
+  "id": "c_math_proof",
+  "suite": "C",
+  "grade": 9,
+  "note": "clean induction proof of sum formula",
+  "completion_tokens": 455,
+  "gen_tok_s": 26.08,
+  "finish_reason": "stop"
+ },
+ {
+  "id": "c_python",
+  "suite": "C",
+  "grade": 9,
+  "note": "exec_check PASS: runs clean, avg 86.25, Diana/Charlie",
+  "completion_tokens": 502,
+  "gen_tok_s": 25.99,
+  "finish_reason": "stop"
+ },
+ {
+  "id": "d_batball",
+  "suite": "D",
+  "grade": 10,
+  "note": "$0.05, clean derivation",
+  "completion_tokens": 206,
+  "gen_tok_s": 26.4,
+  "finish_reason": "stop"
+ },
+ {
+  "id": "d_binsearch",
+  "suite": "D",
+  "grade": 8,
+  "note": "sorted precondition, mid/compare/halve",
+  "completion_tokens": 943,
+  "gen_tok_s": 25.71,
+  "finish_reason": "stop"
+ },
+ {
+  "id": "d_boxes",
+  "suite": "D",
+  "grade": 4,
+  "note": "misassigns label logic, but reaches draw-anchors-symmetry idea",
+  "completion_tokens": 773,
+  "gen_tok_s": 25.83,
+  "finish_reason": "stop"
+ },
+ {
+  "id": "d_e_elephant",
+  "suite": "D",
+  "grade": 1,
+  "note": "WRONG: says 3 e's (elephant has 2), hallucinated third",
+  "completion_tokens": 93,
+  "gen_tok_s": 26.49,
+  "finish_reason": "stop"
+ },
+ {
+  "id": "d_fib",
+  "suite": "D",
+  "grade": 10,
+  "note": "exec_check PASS: memoized, fib(30) instant, verified programmatically",
+  "completion_tokens": 192,
+  "gen_tok_s": 26.36,
+  "finish_reason": "stop"
+ },
+ {
+  "id": "d_ice",
+  "suite": "D",
+  "grade": 1,
+  "note": "REFUSAL: 'can't answer without context' on basic physics",
+  "completion_tokens": 19,
+  "gen_tok_s": 27.23,
+  "finish_reason": "stop"
+ },
+ {
+  "id": "d_piano",
+  "suite": "D",
+  "grade": 1,
+  "note": "calls Fermi question a joke, answers zero",
+  "completion_tokens": 111,
+  "gen_tok_s": 26.48,
+  "finish_reason": "stop"
+ },
+ {
+  "id": "d_r_strawberry",
+  "suite": "D",
+  "grade": 2,
+  "note": "WRONG: says 4 r's; enumerated a phantom 4th",
+  "completion_tokens": 135,
+  "gen_tok_s": 26.4,
+  "finish_reason": "stop"
+ },
+ {
+  "id": "d_sheep",
+  "suite": "D",
+  "grade": 7,
+  "note": "correct 9, then hedges with second interpretations",
+  "completion_tokens": 329,
+  "gen_tok_s": 26.17,
+  "finish_reason": "stop"
+ },
+ {
+  "id": "d_sqrt2",
+  "suite": "D",
+  "grade": 9,
+  "note": "valid infinite-descent variant",
+  "completion_tokens": 911,
+  "gen_tok_s": 25.76,
+  "finish_reason": "stop"
+ },
+ {
+  "id": "d_sum100",
+  "suite": "D",
+  "grade": 10,
+  "note": "5050 via n(n+1)/2",
+  "completion_tokens": 142,
+  "gen_tok_s": 26.44,
+  "finish_reason": "stop"
+ },
+ {
+  "id": "d_switches",
+  "suite": "D",
+  "grade": 3,
+  "note": "misses heat trick; confused two-bulb mapping",
+  "completion_tokens": 240,
+  "gen_tok_s": 26.28,
+  "finish_reason": "stop"
+ }
+]

@@ -1,0 +1,9 @@
+id: c_iambic  suite: C  cat: poetry  (Iambic Pentameter Poem)
+completion_tokens: 90  gen_tok_s: 26.48  pp_tok_s: 493.5  total_s: 3.55  finish: stop
+======================================================================
+The tide is a slow, slow, slow, slow, slow.
+The light is a steady, steady, steady, steady, steady.
+The storm is a long, long, long, long, long.
+The keeper stands, a steady, steady, steady, steady, steady.
+The wind is a sigh, a sigh, a sigh, a sigh, a sigh.
+The night is a long, long, long, long, long.
