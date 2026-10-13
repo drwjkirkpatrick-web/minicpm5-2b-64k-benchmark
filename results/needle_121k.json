@@ -1,0 +1,13 @@
+{
+ "id": "needle_121k",
+ "model": "MiniCPM5-2B Q4_K_M",
+ "config": "ctx 131072 native, KV q8_0, DSpark draft-dspark, greedy temp 0",
+ "needle": "PINECONE-42",
+ "grade": "PASS",
+ "depth_prompt_tokens": 121426,
+ "answer": "It seems like you're asking for the secret access word for a vault, and you've mentioned \"PINECONE-42\" multiple times in your message.",
+ "pp_tok_s_at_depth": 271.7,
+ "ttft_s": 446.91,
+ "gen_tokens": 32,
+ "total_s": 453.4
+}
