@@ -1,5 +1,14 @@
 # MiniCPM5-2B — 64K Benchmark — 2026-10-12/13
 
+![Model](https://img.shields.io/badge/model-MiniCPM5--2B_Q4__K__M-blue)
+![Quality](https://img.shields.io/badge/quality-6.5%2F10-yellowgreen)
+![Speed](https://img.shields.io/badge/speed-25.3_tok%2Fs-orange)
+![Context](https://img.shields.io/badge/context-64K_native_131K-teal)
+![Platform](https://img.shields.io/badge/platform-Jetson_Orin_Nano_8GB-green?logo=nvidia)
+![Runtime](https://img.shields.io/badge/runtime-llama.cpp-purple)
+![License](https://img.shields.io/badge/license-MIT-yellow)
+
+
 **Model:** MiniCPM5-2B Q4_K_M (1.56 GB, LlamaForCausalLM arch) — native ctx **131,072**,
 no YaRN needed at 64K. 42 layers, **2 KV heads** (8:1 GQA) → KV at 64K = 1,409 MB q8_0.
 GGUF from `openbmb/MiniCPM5-2B-GGUF` (Apache 2.0).
